@@ -1,0 +1,66 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+}
+
+/* body */
+body {
+  font-family: 'Questrial', sans-serif;
+  background-color: #ED1B2e;
+  height: 100%;
+  width: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* logo bar */
+.logobar {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  /* text-align: center; */
+  padding-left: 30px;
+  background-color: white;
+}
+
+/* div */
+#myDiagramDiv {
+  /* margin-left: 5%; */
+  margin-top: 5%;
+  margin-left: 20%;
+  background-color: white;
+  text-align: center;
+  width: 1200px; 
+  height:700px; 
+  border:1px solid black;
+}
+
+/* search center zoom */
+#search_center {
+  margin-left: 20%;
+  /* display: flex; */
+  /* position: relative; */
+
+}
+
+/* buttons */
+.s, .z, .cr {
+  height: 50px;
+  width: 120px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#mySearch {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: white;
+}

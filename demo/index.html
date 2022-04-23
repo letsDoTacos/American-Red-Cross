@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>DRO TO</title>
+</head>
+<body>
+
+  <div class="logobar">
+    <a href="https://www.redcross.org/"><img src="./images/American_Red_Cross_logo.svg" alt="American Red Cross Logo" height="100%"></a>
+  </div>
+
+    <!-- h1 -->
+    <!-- <h1>DRO TO</h1> -->
+
+    <!-- myDiagramDiv -->
+  <div id="myDiagramDiv">
+    
+  </div>
+  <br>
+  <!-- search & zoom to fint -->
+  <div id="search_center">
+    <button onclick="searchDiagram()" class="s">Search</button>
+    <input type="search" id="mySearch" onkeypress="if (event.keyCode  === 13) searchDiagram()" placeholder="Name or Title">
+    <br>
+    <!-- zoom to fit -->
+    <button id="zoomToFit" class="z">Zoom to Fit</button> 
+    <button id="centerRoot" class="cr">Center on root</button>
+  </div>
+
+
+      <!-- scripts -->
+      <script src="https://unpkg.com/gojs"></script>
+      <script src="index.js"></script>
+      <!-- <script>
+</body>
+</html>
