@@ -61,6 +61,7 @@ h1 {
 #mySearch {
   height: 35px;
   width: 300px;
+  font-size: 15px;
   border-radius: 5px;
   border-color: white;
 }
