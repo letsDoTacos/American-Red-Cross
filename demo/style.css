@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Questrial', sans-serif;
+  font-size: 18px;
 }
 
 /* body */
@@ -33,7 +34,7 @@ h1 {
 #myDiagramDiv {
   /* margin-left: 5%; */
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 10%;
   background-color: white;
   text-align: center;
   width: 1200px; 
@@ -44,18 +45,20 @@ h1 {
 /* search center zoom */
 #search_center {
   margin-left: 20%;
-  /* display: flex; */
+  display: flex;
   /* position: relative; */
 
 }
 
 /* buttons */
-.s, .z, .cr {
+.p, .s, .z, .cr {
   height: 50px;
   width: 120px;
   margin: 5px;
+  margin-top: 30px;
   border-radius: 10px;
   font-size: 1rem;
+  justify-content: space-around;
 }
 
 #mySearch {
@@ -64,4 +67,37 @@ h1 {
   font-size: 15px;
   border-radius: 5px;
   border-color: white;
+  margin-top: 40px;
 }
+
+.input {
+  color: white;
+  margin-top: 40px;
+  padding: 10px; 
+  margin-bottom: 20px;
+}
+
+#bottomContent {
+  margin-top: 20px;
+  color: white;
+}
+
+#mySavedModel {
+  width:100%;
+  height:250px
+}
+
+#bottomButtons {
+  margin-left: 40px;
+}
+
+#Button {
+  height: 50px;
+  width: 120px;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  justify-content: space-around;
+}
+
